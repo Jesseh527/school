@@ -1,0 +1,20 @@
+Script started on 2021-08-25 13:39:15-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="75" LINES="55"]
+]777;notify;Command completed;vi lab01.cpp\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab01\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab01\[006904242@csusb.edu@jb359-27 lab01]$ make lab01
+g++ -c lab01.cpp
+g++ -c funcs.cpp
+g++ lab01.o funcs.o -o lab01
+]777;notify;Command completed;make lab01\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab01\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab01\[006904242@csusb.edu@jb359-27 lab01]$ ls
+'#funcs.cpp#'   funcs.h    [0m[38;5;40mlab01[0m        lab01log.txt   search.txt
+ funcs.cpp      funcs.h~   lab01.cpp    lab01.o        typescript
+ funcs.cpp~     funcs.o    lab01.cpp~   makefile
+]777;notify;Command completed;ls\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab01\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab01\[006904242@csusb.edu@jb359-27 lab01]$ .lab01/lab01[C
+The array: 63 60 61 81 83 15 51 68 48 13 43 35 91 31 98 33 79 55 34 20 65 17 84 90 86 26 97 58 53 14 27 46 23 50 85 49 21 75 11 10 87 93 88 19 82 24 57 99 80 12 74 39 16 22 42 56 36 76 64 18 
+
+Enter the key: 83
+
+
+The key 83 is at the index 4.
+]777;notify;Command completed;./lab01\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab01\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab01\[006904242@csusb.edu@jb359-27 lab01]$ exit
+exit
+
+Script done on 2021-08-25 13:40:09-07:00 [COMMAND_EXIT_CODE="0"]
