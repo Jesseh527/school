@@ -1,0 +1,107 @@
+Script started on 2022-05-10 13:19:02-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="97" LINES="12"]
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw5[006904242@csusb.edu@jb359-1 hw5]$ ./memory_segments
+
+
+---------- main -------------------
+
+0xffffffffffff (999999999999999): Last address
+      0x401735 (        4200245): Address etext
+      0x404074 (        4210804): Address edata
+      0x405a60 (        4217440): Address end
+      0x401455 (        4199509): Address of code for proc1
+      0x40153b (        4199739): Address of code for proc2
+      0x4042c0 (        4211392): Address of uninitialized global variable g0
+      0x404064 (        4210788): Address of initialized global variable g1
+      0x4042e0 (        4211424): Address of uninitialized global array g2
+      0x404068 (        4210792): Address of initialized global variable g3
+      0x405a50 (        4217424): Address of uninitialized global variable g4
+      0x94feb0 (        9764528): Address heap1 in heap space
+      0x94fee0 (        9764576): Address heap2 in heap space
+0x7fff1ca8a63c (140733674202684): Address of local variable lc0
+0x7fff1ca8a638 (140733674202680): Address of local variable lc1
+0x7fff1ca8a634 (140733674202676): Address of local variable lc2
+      0x405a58 (        4217432): Address of local uninitialized static var ls0
+      0x40406c (        4210796): Address of local initialized static var ls1
+
+
+----------- proc1 ------------------
+
+      0x401455 (        4199509): Address of code for proc1
+      0x4042c0 (        4211392): Address of global variable g0
+      0x404064 (        4210788): Address of global variable g1
+      0x4042e0 (        4211424): Address of global variable g2
+      0x404068 (        4210792): Address of global variable g3
+      0x405a50 (        4217424): Address of global variable g4
+0x7fff1ca8a61c (140733674202652): Address of local variable lc3
+0x7fff1ca8a618 (140733674202648): Address of local variable lc4
+
+
+------------ proc2 -----------------
+
+      0x40153b (        4199739): Address of code for proc2
+      0x4042c0 (        4211392): Address of global variable g0
+      0x404064 (        4210788): Address of global variable g1
+      0x4042e0 (        4211424): Address of global variable g2
+      0x404068 (        4210792): Address of global variable g3
+      0x405a50 (        4217424): Address of global variable g4
+0x7fff1ca8a61c (140733674202652): Address of local variable lc5
+0x7fff1ca8a618 (140733674202648): Address of local variable lc6
+      0x405a5c (        4217436): Address of local uninitialized static var ls2
+      0x404070 (        4210800): Address of local initialized static var ls3
+select a number for n!:10
+10! = 3628800
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw5[006904242@csusb.edu@jb359-1 hw5]$ .mem[K[K[K/memory_segments
+
+
+---------- main -------------------
+
+0xffffffffffff (999999999999999): Last address
+      0x401735 (        4200245): Address etext
+      0x404074 (        4210804): Address edata
+      0x405a60 (        4217440): Address end
+      0x401455 (        4199509): Address of code for proc1
+      0x40153b (        4199739): Address of code for proc2
+      0x4042c0 (        4211392): Address of uninitialized global variable g0
+      0x404064 (        4210788): Address of initialized global variable g1
+      0x4042e0 (        4211424): Address of uninitialized global array g2
+      0x404068 (        4210792): Address of initialized global variable g3
+      0x405a50 (        4217424): Address of uninitialized global variable g4
+      0xc78eb0 (       13078192): Address heap1 in heap space
+      0xc78ee0 (       13078240): Address heap2 in heap space
+0x7ffd06a6bacc (140724715043532): Address of local variable lc0
+0x7ffd06a6bac8 (140724715043528): Address of local variable lc1
+0x7ffd06a6bac4 (140724715043524): Address of local variable lc2
+      0x405a58 (        4217432): Address of local uninitialized static var ls0
+      0x40406c (        4210796): Address of local initialized static var ls1
+
+
+----------- proc1 ------------------
+
+      0x401455 (        4199509): Address of code for proc1
+      0x4042c0 (        4211392): Address of global variable g0
+      0x404064 (        4210788): Address of global variable g1
+      0x4042e0 (        4211424): Address of global variable g2
+      0x404068 (        4210792): Address of global variable g3
+      0x405a50 (        4217424): Address of global variable g4
+0x7ffd06a6baac (140724715043500): Address of local variable lc3
+0x7ffd06a6baa8 (140724715043496): Address of local variable lc4
+
+
+------------ proc2 -----------------
+
+      0x40153b (        4199739): Address of code for proc2
+      0x4042c0 (        4211392): Address of global variable g0
+      0x404064 (        4210788): Address of global variable g1
+      0x4042e0 (        4211424): Address of global variable g2
+      0x404068 (        4210792): Address of global variable g3
+      0x405a50 (        4217424): Address of global variable g4
+0x7ffd06a6baac (140724715043500): Address of local variable lc5
+0x7ffd06a6baa8 (140724715043496): Address of local variable lc6
+      0x405a5c (        4217436): Address of local uninitialized static var ls2
+      0x404070 (        4210800): Address of local initialized static var ls3
+select a number for n!:6] 
+6! = 720
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw5[006904242@csusb.edu@jb359-1 hw5]$ exit
+exit
+
+Script done on 2022-05-10 13:20:19-07:00 [COMMAND_EXIT_CODE="0"]

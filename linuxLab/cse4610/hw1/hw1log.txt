@@ -1,0 +1,56 @@
+Script started on 2022-02-14 15:51:46-08:00
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ sh hw1.sh
+enter backup directory name: 
+backup
+created directory backup
+backup ayo.cpp
+backup poggers.cpp
+backup sus.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ ls -l backup
+total 2
+-rw-r--r-- 1 006904242@csusb.edu domain users@csusb.edu  6 Feb 14  2022 ayo.cpp
+-rw-r--r-- 1 006904242@csusb.edu domain users@csusb.edu  6 Feb 14  2022 poggers.cpp
+-rw-r--r-- 1 006904242@csusb.edu domain users@csusb.edu 14 Feb 14  2022 sus.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ ls -l backup[3Psh hw1.sh
+enter backup directory name: 
+backup
+backup exist
+no update
+no update
+no update
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ sh hw1.shls -l backup
+total 2
+-rw-r--r-- 1 006904242@csusb.edu domain users@csusb.edu  6 Feb 14  2022 ayo.cpp
+-rw-r--r-- 1 006904242@csusb.edu domain users@csusb.edu  6 Feb 14  2022 poggers.cpp
+-rw-r--r-- 1 006904242@csusb.edu domain users@csusb.edu 14 Feb 14  2022 sus.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ ecco [K[K[Kho "ayo" >> ayo.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ E[Kecho "pggers[K[K[K[K[Koggers" >> pg[Koggers.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ echo sus [K[K[K[K"u[Ksus" >> sus .cppp[K[K[K[K[K[K.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ echo "sus" >> sus.cpppoggers" >> poggers.cpp[8Payo" >> ayo.cpp[9Pls -l backup[3Psh hw1.sh
+enter backup directory name: 
+backup
+backup exist
+backup ayo.cpp
+backup poggers.cpp
+backup sus.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ sh hw1.shecho "sus" >> sus.cpp[12Psh hw1.sh[Ka[Kecho "ayooooo" >> ayo.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ touch[K[K[K[K[Kecho "ayooooo" >> ayo.cpp[16Psh hw1.sh
+enter backup directory name: 
+backup
+backup exist
+backup ayo.cpp
+no update
+no update
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ sh hw1.shecho "ayooooo" >> ayo.cpp[16Psh hw1.shecho "ayooooo" >> ayo.cpp[16Psh hw1.sh[Ksh hw1.sh[Ktouch hi.cpp
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ touch hi.cpp[3Psh hw1.shecho "ayooooo" >> ayo.cpp[16Psh hw1.sh
+enter backup directory name: 
+backup
+backup exist
+no update
+backup hi.cpp
+no update
+no update
+]0;006904242@csusb.edu@jbh3-1:~/cse4600/hw1[006904242@csusb.edu@jbh3-1 hw1]$ exit
+exit
+
+Script done on 2022-02-14 15:56:00-08:00

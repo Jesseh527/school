@@ -1,0 +1,116 @@
+Script started on 2022-04-26 21:09:03-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="146" LINES="12"]
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw4[006904242@csusb.edu@jb359-1 hw4]$ gcc badcnt.c -o xbadcnt -lpthread 
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw4[006904242@csusb.edu@jb359-1 hw4]$ ./xbadcnt
+
+ BOOM! cnt is [1019441], should be 2000000
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw4[006904242@csusb.edu@jb359-1 hw4]$ gcc -o goodcnt goodcnt.c -lpthread
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw4[006904242@csusb.edu@jb359-1 hw4]$ ./goodcnt
+
+ OK! cnt is [2000000]
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw4[006904242@csusb.edu@jb359-1 hw4]$ gcc pc.c -o pc -lpthread
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw4[006904242@csusb.edu@jb359-1 hw4]$ ./pc 5 5
+producer [140266249156352] produced 383 
+producer [140266249156352] produced 793 
+producer [140266232370944] produced 777 
+producer [140266089760512] produced 915 
+producer [140266240763648] produced 886 
+ Consumer [140266215585536] consumed 383 
+ Consumer [140266215585536] consumed 793 
+producer [140266249156352] produced 335 
+ Consumer [140266207192832] consumed 777 
+ Consumer [140266115692288] consumed 915 
+producer [140266089760512] produced 649 
+producer [140266232370944] produced 492 
+producer [140266223978240] produced 386 
+ Consumer [140266115692288] consumed 886 
+ Consumer [140266107299584] consumed 335 
+producer [140266249156352] produced 362 
+ Consumer [140266207192832] consumed 649 
+ Consumer [140266215585536] consumed 492 
+producer [140266240763648] produced 421 
+ Consumer [140266107299584] consumed 386 
+ Consumer [140266198800128] consumed 362 
+producer [140266089760512] produced 27 
+producer [140266232370944] produced 690 
+ Consumer [140266207192832] consumed 421 
+producer [140266223978240] produced 59 
+producer [140266223978240] produced 172 
+ Consumer [140266115692288] consumed 27 
+ Consumer [140266115692288] consumed 690 
+ Consumer [140266107299584] consumed 59 
+producer [140266089760512] produced 540 
+ Consumer [140266198800128] consumed 172 
+producer [140266240763648] produced 926 
+producer [140266232370944] produced 426 
+producer [140266249156352] produced 763 
+ Consumer [140266107299584] consumed 540 
+ Consumer [140266215585536] consumed 926 
+producer [140266223978240] produced 736 
+producer [140266223978240] produced 782 
+ Consumer [140266107299584] consumed 426 
+ Consumer [140266115692288] consumed 763 
+ Consumer [140266207192832] consumed 736 
+producer [140266232370944] produced 567 
+producer [140266089760512] produced 211 
+ Consumer [140266198800128] consumed 782 
+producer [140266249156352] produced 429 
+ Consumer [140266115692288] consumed 567 
+ Consumer [140266215585536] consumed 211 
+producer [140266232370944] produced 862 
+ Consumer [140266207192832] consumed 429 
+producer [140266240763648] produced 368 
+producer [140266223978240] produced 530 
+ Consumer [140266107299584] consumed 862 
+ Consumer [140266115692288] consumed 368 
+ Consumer [140266198800128] consumed 530 
+producer [140266223978240] produced 802 
+producer [140266240763648] produced 929 
+producer [140266249156352] produced 67 
+producer [140266089760512] produced 123 
+ Consumer [140266115692288] consumed 802 
+ Consumer [140266215585536] consumed 929 
+ Consumer [140266207192832] consumed 67 
+ Consumer [140266107299584] consumed 123 
+producer [140266089760512] produced 167 
+producer [140266232370944] produced 135 
+producer [140266240763648] produced 58 
+ Consumer [140266115692288] consumed 167 
+ Consumer [140266215585536] consumed 135 
+producer [140266089760512] produced 393 
+producer [140266223978240] produced 22 
+ Consumer [140266207192832] consumed 58 
+producer [140266232370944] produced 456 
+ Consumer [140266198800128] consumed 393 
+ Consumer [140266107299584] consumed 22 
+producer [140266249156352] produced 69 
+ Consumer [140266115692288] consumed 456 
+producer [140266240763648] produced 11 
+producer [140266089760512] produced 42 
+ Consumer [140266215585536] consumed 69 
+ Consumer [140266207192832] consumed 11 
+producer [140266240763648] produced 919 
+ Consumer [140266107299584] consumed 42 
+producer [140266223978240] produced 229 
+producer [140266249156352] produced 421 
+producer [140266089760512] produced 784 
+producer [140266232370944] produced 373 
+ Consumer [140266215585536] consumed 919 
+ Consumer [140266198800128] consumed 229 
+ Consumer [140266207192832] consumed 421 
+producer [140266249156352] produced 324 
+ Consumer [140266215585536] consumed 784 
+producer [140266240763648] produced 537 
+ Consumer [140266107299584] consumed 373 
+producer [140266232370944] produced 315 
+ Consumer [140266207192832] consumed 324 
+producer [140266240763648] produced 370 
+ Consumer [140266198800128] consumed 537 
+ Consumer [140266198800128] consumed 315 
+ Consumer [140266198800128] consumed 370 
+producer [140266223978240] produced 198 
+ Consumer [140266198800128] consumed 198 
+Exit the program
+]0;006904242@csusb.edu@jb359-1:~/cse4600/hw4[006904242@csusb.edu@jb359-1 hw4]$ exit
+exit
+
+Script done on 2022-04-26 21:10:50-07:00 [COMMAND_EXIT_CODE="0"]
