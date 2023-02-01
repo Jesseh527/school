@@ -1,0 +1,23 @@
+// lab07.cpp
+#include "Employee.cpp"
+#include "DoublyLinkedQueue.cpp"
+int main()
+{
+  int rnum;
+  
+  Queue<int> intque;//1
+  cout << "Enqueue positive numbers (enter -1 to stop): ";
+  int num;
+  cin >> num;
+  while(inputNum != -1){
+    intque.enqueue(num);
+    cin >> num;
+  }
+  intque.print();
+  cout << "How many NUmbers to be removed from queue: ";
+  cin >> rnum;
+  for(int i = 0;i< rnum; i++){
+    intque.dequeue()
+  }
+  intqueue.print()
+}

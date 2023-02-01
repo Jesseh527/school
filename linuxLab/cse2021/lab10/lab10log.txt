@@ -1,0 +1,28 @@
+Script started on 2021-11-10 12:47:29-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="55"]
+]777;notify;Command completed;exit\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab10\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab10\[006904242@csusb.edu@jb359-29 lab10]$ ./lab10
+enter int for set A (to stop enter 0): 
+5 6 2 1 7 9 4 3 8 10 0
+printed values of set A:
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+enter int for set B (to stop enter 0): 
+9 10 6 8 11 12 7 13 0
+printed values of set B:
+6, 7, 8, 9, 10, 11, 12, 13, 
+ the union of set A and set B: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 
+ the difference of set A and set B: 1, 2, 3, 4, 5, 
+ the intersection of set A and set B: 6, 7, 8, 9, 10, 
+enter values for set S (to stop enter "exit"): 
+gg dd ff ss aa jj kk ll ww ee exit
+printed values of set S:
+aa, dd, ee, ff, gg, jj, kk, ll, ss, ww, 
+enter values for set T (to stop enter "exit"): 
+ff ll aa ss kk qq tt yy uu oo nn exit
+printed values of set T:
+aa, ff, kk, ll, nn, oo, qq, ss, tt, uu, yy, 
+ the union of set S and set T: aa, dd, ee, ff, gg, jj, kk, ll, nn, oo, qq, ss, tt, uu, ww, yy, 
+ the difference of set S and set T: dd, ee, gg, jj, ww, 
+ the intersection of set S and set T: aa, ff, kk, ll, ss, 
+]777;notify;Command completed;./lab10\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab10\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab10\[006904242@csusb.edu@jb359-29 lab10]$ exit
+exit
+
+Script done on 2021-11-10 12:48:43-08:00 [COMMAND_EXIT_CODE="0"]

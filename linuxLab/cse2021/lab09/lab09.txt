@@ -1,0 +1,22 @@
+Script started on 2021-11-03 12:57:25-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;g++ -c lab09.cpp\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab09\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab09\[006904242@csusb.edu@jb359-29 lab09]$ g++ -c lab09.cpp[8Pcd lab09g++ -c lab09.cpp[8Pcd lab09cse2021ls[Kcdlsg++ -c lab09.cppls[Kcd lab08cse2021g++ -c lab09.cpp[8Pcd lab09cse2021ls[Kcdvi lab09.cpp[2Pbst.cpp[2Pcd lab09ls[Kcd cse2021ls[Kscript lab08log.txt[12P./lab08[K9
+insert the values (to stop, enter 0): 
+10 5 20 3 22 6 18 7 9 13 15 4 2 119 30 8 0
+
+Values printed: 
+2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 13 - 15 - 18 - 20 - 22 - 30 - 119 - 
+remove value (enter 0 to stop): 
+1 11   2 12 3 13 0
+
+values left:
+4 - 5 - 6 - 7 - 8 - 9 - 10 - 15 - 18 - 20 - 22 - 30 - 119 - 
+please enter range: 5 10
+5 - 6 - 7 - 8 - 9 - 10 - insert the values (to stop, enter 0): 
+aa bb cc ee hh ii ll mm pp qq ss xx zz                                      hh ll aa ss ii uu ee bb cc pp qq mm zz xx exit
+
+Values printed: 
+aa - bb - cc - ee - hh - ii - ll - mm - pp - qq - ss - uu - xx - zz - 
+]777;notify;Command completed;./lab09\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab09\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab09\[006904242@csusb.edu@jb359-29 lab09]$ exiy[Kt
+exit
+
+Script done on 2021-11-03 12:59:32-07:00 [COMMAND_EXIT_CODE="0"]

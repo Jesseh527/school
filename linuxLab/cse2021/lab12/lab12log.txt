@@ -1,0 +1,23 @@
+Script started on 2021-11-24 10:30:43-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;./lab12\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab12\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab12\[006904242@csusb.edu@jb359-29 lab12]$ ./lab12
+the priority of print job? 6
+The priority of print job? 20
+The priority of print job? 5
+The priority of print job? 3
+The priority of print job? 1
+The priority of print job? 36
+The priority of print job? 8
+The priority of print job? 12
+The priority of print job? 6
+The priority of print job? -1
+
+The priority of print jobs: 1 3 6 6 5 36 8 20 12 
+
+Enter the number of jobs the printer will run: 2
+
+The priority of remaining print jobs: 5 6 6 20 12 36 8 
+
+]777;notify;Command completed;./lab12\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab12\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab12\[006904242@csusb.edu@jb359-29 lab12]$ wxit[K[K[K[Kexit
+exit
+
+Script done on 2021-11-24 10:31:11-08:00 [COMMAND_EXIT_CODE="0"]

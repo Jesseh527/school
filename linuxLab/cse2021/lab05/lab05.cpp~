@@ -1,0 +1,124 @@
+//lab05.cpp
+#include <string>
+#include "LinkedList.cpp"
+#include "Employee.cpp"
+
+
+int main()
+{
+  int x;
+  int k;
+  int key;
+
+  //creates list
+  LinkedList<int> intll;
+
+  //loop to put items in front of the list untill 0 is put through
+  cout << "integer";
+  cin << x;
+  while(x != 0){
+    intll.push_front(x);
+    cout << "integer: ";
+    cin >> x;
+  }
+  
+  //prints size of list
+  cout<<" the size of the list is " intll.get_size()<< endl;
+  
+  //prints the lsit
+  cout << "The list:" << endl;
+  intll.print();
+
+  //prompts user to enter key
+  cout <<"key: ";
+  cin >> key;
+
+  //finds if key is in list
+  cout << " is key in list?" << intll.find(key) << endl;
+
+  //prompts user to ennter the number of values to be removed
+  cout << " How many values do you want to remove?";
+  cin >> k;
+
+  //loop to remove value
+  while(!intll.empty() && K > 0){
+    intll.pop_front();
+    k--;
+  }
+  //print whats left of list
+  cout << "The linked list is: " << endl;
+  intll.prints();
+
+  string name;
+  // creates a linked list for strings
+  LinkedList<string> strll;
+
+
+  
+  //input string and loop for puting into linked list
+  Cout<< "create a lsit of string:" << endl;
+  cin >> name;
+  while(name != exit){
+    strll.push_front(name);
+    cin >> name;    
+  }
+  //prints size of string list and prints the list
+  cout << "The size of the Linked List is: "<< strll.get_size();
+  
+  cout << "The linked list is: " << endl;
+  strll.prints();  
+  //prompts user to ennter the number of values to be removed
+  cout << " How many values do you want to remove?";
+  cin >> k;
+
+  //loop to remove value
+  while(!strll.empty() && K > 0){
+    strll.pop_front();
+    k--;
+  }
+  //print whats left of list
+  cout << "The linked list is: " << endl;
+  strll.prints();
+
+
+  
+  //creates a linked list for employee
+  LinkedList<Employee> empll;
+  int id;
+  string name;
+  string dept;
+
+  //input employee info and loop to put tehm in a linked list
+  cout << "Create a list of employees:" << endl;
+  cout <<"Enqueue employee id, name, dept(enter id 0 to stop): ";
+  cin >> id >> name >> dept;
+  cout << endl;
+  while(id != 0){
+    Employee e(id, name, dept);
+    empll.push_front(e);
+    cout << "Create a list of employees:" << endl;
+    cout <<"Enqueue employee id, name, dept(enter id 0 to stop): ";
+    cin >> id >> name >> dept;
+    cout << endl;
+  }
+  
+  //prints size of employee list and prints the list
+  cout << "The size of the Linked List is: "<< empll.get_size();
+  
+  cout << "The linked list is: " << endl;
+  empll.prints();  
+  //prompts user to ennter the number of values to be removed
+  cout << " How many values do you want to remove?";
+  cin >> k;
+
+  //loop to remove value
+  while(!empll.empty() && K > 0){
+    empll.pop_front();
+    k--;
+  }
+  //print whats left of list
+  cout << "The linked list is: " << endl;
+  empll.prints();
+
+  
+}

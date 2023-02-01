@@ -1,0 +1,9 @@
+#include <fstream>
+...
+ifstream input("sort.txt");
+int number;
+while (input >> number)
+{
+ v.push_back(number);
+}
+input.close();

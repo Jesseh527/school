@@ -1,0 +1,16 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+#include <Student.cpp>
+#include <string>
+#include <iostream>
+using namespace std;
+
+int main(){
+	NodeType*team = nullptr;
+	NodeType*ptr = nullptr;
+	cout << "id and name: ";
+	while(id != 0){
+		Student ns(id,name);
+		ptr = new NodeType(ns):
+	}
+}

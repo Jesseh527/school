@@ -1,0 +1,47 @@
+Script started on 2021-11-15 13:35:56-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="23"]
+]777;notify;Command completed;./lab10\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab11\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab11\[006904242@csusb.edu@jb359-29 lab11]$ ./lab11
+using index operators to insert new pairs
+Student ID? 1006
+Student Name? Jim
+
+Student ID? 1004
+Student Name? alice
+
+Student ID? 1008
+Student Name? fred
+
+Student ID? 1005
+Student Name? Mary
+
+Student ID? 1001
+Student Name? tom
+
+Student ID? 0
+
+all student information
+1001:tom
+1004:alice
+1005:Mary
+1006:Jim
+1008:fred
+
+id of student you want to know: 1005
+The corisponding name is: Mary
+
+change which one? 1006
+... to what name? Bill
+1001:tom
+1004:alice
+1005:Mary
+1006:Bill
+1008:fred
+
+remove wich one? 1005
+1001:tom
+1004:alice
+1006:Bill
+1008:fred
+]777;notify;Command completed;./lab11\]0;006904242@csusb.edu@jb359-29:~/cse2021/lab11\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2021/lab11\[006904242@csusb.edu@jb359-29 lab11]$ exit
+exit
+
+Script done on 2021-11-15 13:37:06-08:00 [COMMAND_EXIT_CODE="0"]

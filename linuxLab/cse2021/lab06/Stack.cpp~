@@ -1,0 +1,58 @@
+// Stack.cpp
+#ifndef STACK_H
+#define STACK_H
+#include <iostream>
+using namespace std;
+template <typename T>
+class Stack
+{
+public:
+ Stack()
+ {
+ topOfStack = -1;
+ items = new T[CAPACITY];
+ }
+
+ //Desctructor
+ ~Stack()
+ {
+
+ }
+
+ // Checks if the stack is empty.
+ bool empty() const
+ {
+
+ }
+
+ // Makes the stack to the empty state.
+ void clear()
+ {
+
+ }
+
+ // Insert item in the stack.
+ void push(const T& item)
+ {
+
+ }
+ // Return the top element.
+ const T& top() const
+ {
+
+ }
+
+ // Removes the top element.
+ void pop()
+ {
+
+ }
+
+ static const int CAPACITY = 50;
+private:
+
+ int topOfStack; // -1 for empty stack
+ T* items;
+};
+#endif
+

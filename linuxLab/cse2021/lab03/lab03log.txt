@@ -1,0 +1,30 @@
+Script started on 2021-09-15 13:20:13-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="78" LINES="24"]
+]777;notify;Command completed;vi lab03.cpp\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab03\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab03\[006904242@csusb.edu@jb359-27 lab03]$ vi lab03.cppStudent.cpp[6Pcd lab03vi Student.cpp[2Plab03.cpp[Kvi lab03.cppStudent.cpp[6Pcd lab03ls[Kmkdir lab03id[C[C[C[C[C[C[Cls[Kmkidir lab03ls[Kcd cse2020ls[Kscript lab02log.txtg++ lab02.cpp -o lab02[6P-c lab02.cppscript lab02log.txt[12P./lab02script lab02log.txt[3Pg++ -c lab02.cpplab02.cpp -o lab02[3Pscript lab02log.txtls[Kcd cse2020ls[Kmkidir lab03ls[Kmkidr lab03di[C[C[C[C[C[C[Cls[Kcd lab03vi Student.cpp[2Plab03.cpp[Kvi lab03.cppStudent.cpp[6Pcd lab03ls[Kmkdir lab03id[C[C[C[C[C[C[Cls[Kmkidir lab03ls[Kcd cse2020ls[Kscript lab02log.txtg++ lab02.cpp -o lab02[6P-c lab02.cppscript lab02log.txt[12P./lab02script lab02log.txt[3Pg++ -c lab02.cppscript lab02log.txt[12P./lab02g++ lab02.cpp -o lab02./lab02[Kscript lab02log.txt[3Pg++ -c lab02.cpplab02.cpp -o lab02[3Pscript lab02log.txtls[Kcd cse2020ls[Kmkidir lab03ls[Kmkidr lab03di[C[C[C[C[C[C[Cls[Kcd lab03vi Student.cpp[2Plab03.cpp[Kvi lab03.cppStudent.cpp[6Pcd lab03vi Student.cpp[2Plab03.cpp[Kvi lab03.cpp[Kvi lab03.cppStudent.cpp[6Pcd lab03ls[Kmkdir lab03id[C[C[C[C[C[C[Cls[Kmkidir lab03ls[Kcd cse2020ls[Kscript lab02log.txtg++ lab02.cpp -o lab02[6P-c lab02.cpplab02.cpp -o lab02[3Pscript lab02log.txtls[Kcd cse2020ls[Kmkidir lab03ls[Kmkidr lab03di[C[C[C[C[C[C[Cls[Kcd lab03vi Student.cpp[2Plab03.cpp[K/[K./lab03
+id and name: 1 a
+a new student is added
+ id and name: 2 b
+a new student is added
+ id and name: 3 c
+a new student is added
+ id and name: 4 d
+a new student is added
+ id and name: 5 b
+a new student is added
+ id and name: 0 no
+
+5 b
+4 d
+3 c
+2 b
+1 a
+
+id to be removed: 3
+
+5 b
+4 d
+2 b
+1 a
+]777;notify;Command completed;./lab03\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab03\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab03\[006904242@csusb.edu@jb359-27 lab03]$ exit
+exit
+
+Script done on 2021-09-15 13:21:45-07:00 [COMMAND_EXIT_CODE="0"]

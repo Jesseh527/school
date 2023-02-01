@@ -1,0 +1,26 @@
+Script started on 2021-09-20 13:38:58-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;script lab03log.txt\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab04\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab04\[006904242@csusb.edu@jb359-27 lab04]$ script lab03log.txt[12P./lab03g++ lab03.cpp -o lab03./lab03[Kg++ lab03.cpp -o lab03c[Ko lab03./lab03[Kscript lab03log.txt[Kscript lab03log.txt[12P./lab03[K4
+Please enter x: 3
+Please enter n: 10
+88573
+The execution time is : 4.1759e-05
+88573
+The execution time is : 6.169e-06
+]777;notify;Command completed;./lab04\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab04\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab04\[006904242@csusb.edu@jb359-27 lab04]$ ./lab04
+Please enter x: 2 3
+Please enter n: 100
+-4476934268306317895
+The execution time is : 0.000128133
+-4476934268306317895
+The execution time is : 6.142e-06
+]777;notify;Command completed;./lab04\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab04\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab04\[006904242@csusb.edu@jb359-27 lab04]$ ./lab04
+Please enter x: 3
+Please enter n: 1000
+-9141782528521893711
+The execution time is : 0.00568271
+-9141782528521893711
+The execution time is : 3.329e-06
+]777;notify;Command completed;./lab04\]0;006904242@csusb.edu@jb359-27:~/cse2020/lab04\]7;file://jb359-27.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab04\[006904242@csusb.edu@jb359-27 lab04]$ exit
+exit
+
+Script done on 2021-09-20 13:39:42-07:00 [COMMAND_EXIT_CODE="0"]

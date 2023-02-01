@@ -1,0 +1,25 @@
+Script started on 2021-10-20 12:27:37-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;vi DoublyLinkedQueue.cpp\]0;006904242@csusb.edu@jb359-29:~/cse2020/lab07\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab07\[006904242@csusb.edu@jb359-29 lab07]$ vi DoublyLinkedQueue.cpp[12Plab07.cppls[Kcd lab07cse2020script lab06log.txt[9Pcd cse2020[2Plab07ls[Kvi lab07.cppDoublyLinkedQueue.cpp[12Plab07.cppls[Kcd lab07cse2020script lab06log.txt[12P./lab06[1Plab06/lab06[K7
+Enqueue positive numbers (enter -1 to stop):  2  12 35 15 35 48 31 15 35 15
+5 -1
+12, 35, 15, 35, 48, 31, 15, 35, 15, 
+How many NUmbers to be removed from queue: 5
+31, 15, 35, 15, 
+Enqueue string (enter exit to stop):  he   gello     hello bye gone live life deatr stop
+hello, bye, gone, live, life, deatr, 
+How many strings to be removed from queue: 2
+gone, live, life, deatr, 
+Enqueue employee's id, name, dept (enter id 0 to stop): 1 tony pizza
+Enqueue employee's id, name, dept: 2 kim CSE
+Enqueue employee's id, name, dept: 3 bob buildinf g
+Enqueue employee's id, name, dept: 4 jason gaming
+Enqueue employee's id, name, dept: 5 sam culinary
+Enqueue employee's id, name, dept: 6 dave english
+Enqueue employee's id, name, dept: 0 done done
+1 tony pizza, 2 kim CSE, 3 bob building, 4 jason gaming, 5 sam culinary, 6 dave english, 
+How many employees to be removed from queue: 1
+2 kim CSE, 3 bob building, 4 jason gaming, 5 sam culinary, 6 dave english, 
+]777;notify;Command completed;./lab07\]0;006904242@csusb.edu@jb359-29:~/cse2020/lab07\]7;file://jb359-29.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab07\[006904242@csusb.edu@jb359-29 lab07]$ exit
+exit
+
+Script done on 2021-10-20 12:30:33-07:00 [COMMAND_EXIT_CODE="0"]
