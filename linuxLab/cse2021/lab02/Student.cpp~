@@ -1,0 +1,43 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+#include <string>
+#include <iostream>
+class Student
+{
+public:
+ // Default constructor
+ Student()
+ {
+ }
+ // Creates a student with the specified id and name.
+ Student(int idvalue, const string& namevale)
+ {
+ }
+ // Returns the student name.
+ string get_name() const
+ {
+ }
+ // Returns the student id.
+ int get_id () const
+ {
+ }
+ // Sets the student name.
+ void set_name(const string& namevalue)
+ {
+ }
+ // Sets the student id.
+ void set_id(int idvalue)
+ {
+ }
+ // Prints the student id and name.
+ void print_student() const
+ {
+ }
+private:
+ // student name
+ string name;
+ // student id
+ int id;
+};
+#endif
+

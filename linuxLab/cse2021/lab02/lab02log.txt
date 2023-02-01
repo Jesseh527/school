@@ -1,0 +1,22 @@
+Script started on 2021-09-01 13:37:14-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="55"]
+]777;notify;Command completed;exit\]0;006904242@csusb.edu@jb359-28:~/cse2020/lab02\]7;file://jb359-28.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab02\[006904242@csusb.edu@jb359-28 lab02]$ exit./lab02[3Pexit./lab02
+enter capasity: 34
+id? lon   24
+name? tim
+id? 25
+name? dar  rake
+id? 71
+name? jason
+id? 72
+name? todd
+id? 0
+
+The students are:
+24 tim
+25 drake
+71 jason
+72 todd
+]777;notify;Command completed;./lab02\]0;006904242@csusb.edu@jb359-28:~/cse2020/lab02\]7;file://jb359-28.cse.csusb.edu/home/csusb.edu/006904242/cse2020/lab02\[006904242@csusb.edu@jb359-28 lab02]$ exit
+exit
+
+Script done on 2021-09-01 13:38:12-07:00 [COMMAND_EXIT_CODE="0"]

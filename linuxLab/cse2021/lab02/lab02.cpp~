@@ -1,0 +1,22 @@
+#include "Student.cpp" 
+#include <string>
+#include <iostream>
+int main{
+	Student*groups = newstudent[capsity]; 
+
+	count << "id?";
+	cin >> id;
+	while (id != 0){
+		cout << "name?";
+		cin >> name;
+		Student newstudent(id,name);
+		group[size] = newstudent;
+		size++;
+		count << "id?";
+		cin >> id;
+	}
+	for( int i = 0; i < size; i++){
+		group[i].print();
+	
+	}
+}
